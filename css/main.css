@@ -1,5 +1,5 @@
 html {
-  font-family: "Karla", sans-serif;
+  font-family: Karla, sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -81,7 +81,7 @@ a:focus {
 .white-pink-btn:hover {
   background-color: #1f2020;
   border-color: #1f2020;
-  color: #ad6570;
+  color: #fff;
 }
 
 .blue-navy-btn {
@@ -105,7 +105,7 @@ a:focus {
 .pink-white-btn:hover {
   background-color: #1f2020;
   border-color: #1f2020;
-  color: #ad6570;
+  color: #fff;
 }
 
 .white-navy-btn {
@@ -141,6 +141,24 @@ a:focus {
 
 .luna-img {
   background-image: url("../images/luna.jpg");
+  background-size: cover;
+  background-position: center left;
+}
+
+.bert-and-ernie-img {
+  background-image: url("../images/bert-and-ernie.jpg");
+  background-size: cover;
+  background-position: center left;
+}
+
+.mittens-img {
+  background-image: url("../images/mittens.jpg");
+  background-size: cover;
+  background-position: center left;
+}
+
+.larry-img {
+  background-image: url("../images/larry.jpg");
   background-size: cover;
   background-position: center left;
 }
