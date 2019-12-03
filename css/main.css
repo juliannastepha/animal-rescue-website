@@ -1,0 +1,40 @@
+html {
+  font-family: 'Karla', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.banner {
+  background-color: #1f2020
+}
+
+.logo {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.nav {
+  text-decoration: none;
+  color: #bbcbd9;
+}
+
+.nav-align {
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+    margin: 0;
+  }
+
+  .nav-align {
+    text-align: right;
+  }
+
+}
