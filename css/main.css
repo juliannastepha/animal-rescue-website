@@ -2,13 +2,13 @@ html {
   font-family: 'Karla', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Playfair Display', serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
-.banner {
-  background-color: #1f2020
+.black-background {
+  background-color: #1f2020;
 }
 
 .logo {
@@ -25,6 +25,96 @@ h1, h2, h3 {
   text-align: center;
 }
 
+.pink-background {
+  background-color: #ce90a7;
+}
+
+.navy-background {
+  background-color: #535c76;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.blue-text {
+  color: #bbcbd9;
+}
+
+.pink-text {
+  color: #ce90a7;
+}
+
+.btn {
+  border-radius: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 3px solid #000;
+}
+
+.nav a:focus {
+  outline: 3px solid #000;
+}
+
+.white-pink-btn {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ce90a7;
+}
+
+.white-pink-btn:hover {
+  background-color: #1f2020;
+  border-color: #1f2020;
+  color: #ce90a7;
+}
+
+.blue-navy-btn {
+  background-color: #bbcbd9;
+  border-color: #bbcbd9;
+  color: #535c76;
+}
+
+.blue-navy-btn:hover {
+  background-color: #1f2020;
+  border-color: #1f2020;
+  color: #bbcbd9;
+}
+
+.pink-white-btn {
+  background-color: #ce90a7;
+  border-color: #ce90a7;
+  color: #fff;
+}
+
+.pink-white-btn:hover {
+  background-color: #1f2020;
+  border-color: #1f2020;
+  color: #ce90a7;
+}
+
+.about-petfinder-img {
+  background-image: url("../images/about-petfinder.jpg");
+  background-size: cover;
+  background-position: center right;
+}
+
+.find-a-pet-img {
+  background-image: url("../images/find-a-pet.jpg");
+  background-size: cover;
+  background-position: center left;
+}
+
+.help-us-out-img {
+  background-image: url("../images/help-us-out.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 @media only screen and (min-width: 38em) {
 
