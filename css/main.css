@@ -1,10 +1,9 @@
 html {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Playfair Display', serif;
-  font-weight: bolder;
+  font-family: "Playfair Display", serif;
 }
 
 .black-background {
@@ -21,16 +20,24 @@ h1, h2, h3, h4 {
   color: #bbcbd9;
 }
 
+.nav:hover {
+  color: #fff;
+}
+
 .nav-align {
   text-align: center;
 }
 
 .pink-background {
-  background-color: #ce90a7;
+  background-color: #ad6570;
 }
 
 .navy-background {
   background-color: #535c76;
+}
+
+.blue-background {
+  background-color: #bbcbd9;
 }
 
 .white-text {
@@ -42,7 +49,11 @@ h1, h2, h3, h4 {
 }
 
 .pink-text {
-  color: #ce90a7;
+  color: #ad6570;
+}
+
+.navy-text {
+  color: #535c76;
 }
 
 .btn {
@@ -64,13 +75,13 @@ a:focus {
 .white-pink-btn {
   background-color: #fff;
   border-color: #fff;
-  color: #ce90a7;
+  color: #ad6570;
 }
 
 .white-pink-btn:hover {
   background-color: #1f2020;
   border-color: #1f2020;
-  color: #ce90a7;
+  color: #ad6570;
 }
 
 .blue-navy-btn {
@@ -86,15 +97,27 @@ a:focus {
 }
 
 .pink-white-btn {
-  background-color: #ce90a7;
-  border-color: #ce90a7;
+  background-color: #ad6570;
+  border-color: #ad6570;
   color: #fff;
 }
 
 .pink-white-btn:hover {
   background-color: #1f2020;
   border-color: #1f2020;
-  color: #ce90a7;
+  color: #ad6570;
+}
+
+.white-navy-btn {
+  background-color: #fff;
+  border-color: #fff;
+  color: #535c76;
+}
+
+.white-navy-btn:hover {
+  background-color: #1f2020;
+  border-color: #1f2020;
+  color: #fff;
 }
 
 .about-petfinder-img {
@@ -114,6 +137,12 @@ a:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.luna-img {
+  background-image: url("../images/luna.jpg");
+  background-size: cover;
+  background-position: center left;
 }
 
 @media only screen and (min-width: 38em) {
