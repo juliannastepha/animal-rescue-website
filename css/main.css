@@ -74,49 +74,49 @@ a:focus {
 
 .white-pink-btn {
   background-color: #fff;
-  border-color: #fff;
+  border: none;
   color: #ad6570;
 }
 
 .white-pink-btn:hover {
   background-color: #1f2020;
-  border-color: #1f2020;
+  transition: background-color .2s linear;
   color: #fff;
 }
 
 .blue-navy-btn {
   background-color: #bbcbd9;
-  border-color: #bbcbd9;
+  border: none;
   color: #535c76;
 }
 
 .blue-navy-btn:hover {
   background-color: #1f2020;
-  border-color: #1f2020;
+  transition: background-color .2s linear;
   color: #bbcbd9;
 }
 
 .pink-white-btn {
   background-color: #ad6570;
-  border-color: #ad6570;
+  border: none;
   color: #fff;
 }
 
 .pink-white-btn:hover {
   background-color: #1f2020;
-  border-color: #1f2020;
+  transition: background-color .2s linear;
   color: #fff;
 }
 
 .white-navy-btn {
   background-color: #fff;
-  border-color: #fff;
+  border: none;
   color: #535c76;
 }
 
 .white-navy-btn:hover {
   background-color: #1f2020;
-  border-color: #1f2020;
+  transition: background-color .2s linear;
   color: #fff;
 }
 
