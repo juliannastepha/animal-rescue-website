@@ -2,7 +2,7 @@ html {
   font-family: Karla, sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, legend {
   font-family: "Playfair Display", serif;
 }
 
@@ -161,6 +161,15 @@ a:focus {
   background-image: url("../images/larry.jpg");
   background-size: cover;
   background-position: center left;
+}
+
+fieldset {
+  border: none;
+}
+
+input, textarea, select {
+  color: #535c76;
+  border-radius: 10px;
 }
 
 @media only screen and (min-width: 38em) {
